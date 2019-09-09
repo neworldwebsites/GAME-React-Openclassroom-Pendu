@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-#Réalisez un jeu du Pendu **[VOIR JEU ICI](https://heuristic-visvesvaraya-ecfc2d.netlify.com)**
+# Réalisez un jeu du Pendu **[VOIR JEU ICI](https://heuristic-visvesvaraya-ecfc2d.netlify.com)**
 
 
 Afin de valider les connaissances acquises jusqu’ici, vous allez faire un petit détour pour réaliser un autre jeu, plus facile à mettre en œuvre : un jeu de pendu… sans pendre qui que ce soit.
