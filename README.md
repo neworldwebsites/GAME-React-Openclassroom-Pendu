@@ -2,7 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 #Réalisez un jeu du Pendu
-Temps d'attente moyen pour être corrigé sur cet exercice : 5 jours
+
+**[VOIR JEU ICI](https://heuristic-visvesvaraya-ecfc2d.netlify.com)**
 
 Afin de valider les connaissances acquises jusqu’ici, vous allez faire un petit détour pour réaliser un autre jeu, plus facile à mettre en œuvre : un jeu de pendu… sans pendre qui que ce soit.
 
