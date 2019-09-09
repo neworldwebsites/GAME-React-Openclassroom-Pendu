@@ -1,11 +1,86 @@
-.App {
-  text-align: center;
+#jeu{
+  padding:10px;
+  max-height:100vh;
+  max-width:100vw;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#currentWord{
+  text-align:center;
+  margin:10vh;
+  background:rgba(3,3,3,0.3);
+  padding:2.5px;
+  font-size:1.1em;
+  letter-spacing:25px;
+  text-transform: uppercase;
+}
+#currentWord .notfinded{
+  opacity:0.5;
+}
+
+#scoring{
+  text-align:center;
+  margin:10vh;
+}
+
+#keyboard{
+  /* position:relative;
+  left:50%;
+  transform:translate(-50%);
+  max-width:46%;
+  margin-top:10vh; */
+  margin-top:15vh;
+  text-align:center;
+  pointer-events: auto;
+}
+#keyboard button{
+  width:40px;
+  font-size:1.1em;
+  border-top:ridge 3px lightblue;
+  border-bottom:ridge 3px black;
+  cursor:grab;
+}
+#keyboard button:hover{
+  background-color: #ccc;
+  /* color:#eee; */
+}
+#keyboard button.used {
+  background-color: lightgreen;
+  /* color:#eee; */
+}
+
+button.start{
+  float: right;
+  margin-right:30px;
+  margin-top: 20px;
+  border-radius:100%;
+  padding: 15px;
+  font-family: 'Press Start 2P',
+    cursive;
+  background:red;
+  color:#eee;  
+  font-weight:900;
+  box-shadow: 1px 5px rgba(3,3,3,.5);
+  transition: all .3s ease-out ;
+}
+button.start:hover{
+  background-color:lightgreen; 
+  box-shadow: 1px 2px rgba(3, 3, 3, 5s);
+  color:#333;
+}
+
+.fin{
+  text-align:center;
+  padding:30px;
+  font-size:3em;
+  font-weight:900;
+  color:#eee;
+  font-family: 'Press Start 2P',
+    cursive;
+}
+
+
+.App {
+  text-align: center;
 }
 
 .App-header {
@@ -23,6 +98,15 @@
   color: #61dafb;
 }
 
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  position:relative;
+  left:46.3%;
+  height: 10vmin;
+  pointer-events: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,4 +114,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@media screen and (max-width:767px) {
+
+  /* FOR MOBILE */
+#keyboard {
+
+  margin-top: 15vh;
+  text-align: center;
+  /* pointer-events: auto; */
+  background-color: white !important;
+  color:black !important;
+}
 }
